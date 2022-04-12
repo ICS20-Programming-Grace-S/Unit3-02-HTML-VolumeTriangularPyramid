@@ -5,17 +5,17 @@
 "use strict"
 
 /**
- * This function calculates area and perimeter of rectangle.
+ * This function calculates the area and perimeter of the rectangle.
  */
 function calcVolume () {
   // get user input
-  let side_a = parseFloat(document.getElementById("side-a").value)
-	let side_b = parseFloat(document.getElementById("side-b").value)
+  let sideA = parseFloat(document.getElementById("side-a").value)
+	let sideB = parseFloat(document.getElementById("side-b").value)
 	let height = parseFloat(document.getElementById("height").value)
 
 
   // calculate the volume
-  let volume = (1/6) * side_a * side_b * height
+  let volume = (1/6) * sideA * sideB * height
 
   // display the results
   document.getElementById("volume").innerHTML = "The volume is " + volume.toFixed(2) + "cm<sup>3</sup>"
